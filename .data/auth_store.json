@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "usr_cust_01",
+      "email": "alex.mercer@gmail.com",
+      "passwordHash": "$2b$10$B/5mKTFZaDLvWIUyVjm6sufwdqHNXsL2lTigOYapzby5o61jFyjgu",
+      "fullName": "Alex Mercer",
+      "phone": "+1 (555) 382-9011",
+      "role": "CUSTOMER",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "emailVerified": true,
+      "isActive": true,
+      "createdAt": "2026-05-12T00:00:00.000Z",
+      "updatedAt": "2026-05-12T00:00:00.000Z",
+      "customerProfile": {
+        "customerCode": "CUST-2026-0001",
+        "isVerified": true,
+        "loyaltyPoints": 350,
+        "totalSpent": 420,
+        "totalOrdersCount": 3,
+        "address": {
+          "street1": "42 Stadium Boulevard, Apt 4B",
+          "city": "Portland",
+          "state": "OR",
+          "postalCode": "97201",
+          "country": "United States"
+        }
+      }
+    },
+    {
+      "id": "usr_cust_1789322344309",
+      "email": "marcus.customer@test.com",
+      "passwordHash": "$2b$10$SEzPEAiDYAMIvNrSWR2XduYorxYDOTvbPAfrOplZQ33AX13FU7cBS",
+      "fullName": "Marcus Cole",
+      "phone": "+1 (555) 345-6789",
+      "role": "CUSTOMER",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "emailVerified": false,
+      "isActive": true,
+      "createdAt": "2026-09-13T17:59:04.309Z",
+      "updatedAt": "2026-09-13T17:59:04.309Z",
+      "customerProfile": {
+        "customerCode": "CUST-2026-0002",
+        "isVerified": false,
+        "loyaltyPoints": 50,
+        "totalSpent": 0,
+        "totalOrdersCount": 0
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "token": "6ca688fa648354bb0a2d2ad2875687cfdccb5f67b8a3d6fa152e52c710245f17",
+      "userId": "usr_cust_1789322344309",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-13T17:59:04.309Z",
+      "expiresAt": "2026-09-20T17:59:04.309Z"
+    }
+  ],
+  "resetTokens": []
+}
